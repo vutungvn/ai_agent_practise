@@ -1,0 +1,15 @@
+{
+  "name": "bai3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "chat": "node --env-file=.env chat.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.27.0"
+  }
+}
