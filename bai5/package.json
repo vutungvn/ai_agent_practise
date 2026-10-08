@@ -1,0 +1,15 @@
+{
+  "name": "bai5",
+  "version": "1.0.0",
+  "description": "Trợ lý vận hành ShopFast - hỏi một câu ra bất thường đêm qua, xử lý luôn sau khi giám đốc xác nhận",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node --env-file-if-exists=.env chat.js",
+    "demo": "node --env-file-if-exists=.env scripts/demo.js",
+    "e2e": "node --env-file-if-exists=.env scripts/e2e.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0"
+  }
+}
