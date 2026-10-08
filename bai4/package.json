@@ -1,0 +1,15 @@
+{
+  "name": "bai4",
+  "version": "1.0.0",
+  "description": "Bộ định tuyến ticket ShopFast - kiến trúc lai: phân loại trước, chỉ ticket cần tra cứu mới vào agent",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "cost": "node scripts/cost.js",
+    "route": "node --env-file-if-exists=.env scripts/route.js",
+    "eval": "node --env-file-if-exists=.env scripts/eval.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0"
+  }
+}
